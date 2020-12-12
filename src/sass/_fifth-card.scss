@@ -4,6 +4,22 @@
 		var(--grayish-blue),
 		var(--grayish-blue),
 		var(--grayish-blue),
-		14px
+		14px,
+		card5,
+		255,
+		571
 	);
+
+	@media screen and (min-width: 1200px) {
+		@include card(
+			var(--white),
+			var(--grayish-blue),
+			var(--grayish-blue),
+			var(--grayish-blue),
+			16.2px,
+			card5,
+			255,
+			571
+		);
+	}
 }

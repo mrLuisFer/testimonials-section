@@ -1,14 +1,17 @@
 // App
 @import './app';
 
+// Main (This is the grid)
+@import './main';
+
 // Mixins
 @import './mixins/card';
 
 // First Card
-@import './_first-card.scss';
+@import './first-card';
 
 // Second Card
-@import './_second_card';
+@import './second-card';
 
 // Third Card
 @import './third-card';
