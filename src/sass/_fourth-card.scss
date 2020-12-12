@@ -1,0 +1,9 @@
+.fourth-card {
+	@include card(
+		var(--dark-blue),
+		var(--white),
+		var(--violet),
+		var(--light-gray),
+		15px
+	);
+}

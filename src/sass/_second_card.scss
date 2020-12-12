@@ -1,0 +1,9 @@
+.second-card {
+	@include card(
+		var(--grayish-blue),
+		var(--white),
+		var(--light-gray),
+		var(--light-gray),
+		15px
+	);
+}

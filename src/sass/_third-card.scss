@@ -1,0 +1,9 @@
+.third-card {
+	@include card(
+		var(--white),
+		var(--grayish-blue),
+		var(--light-gray),
+		var(--grayish-blue),
+		15px
+	);
+}

@@ -1,0 +1,9 @@
+.fifth-card {
+	@include card(
+		var(--white),
+		var(--grayish-blue),
+		var(--grayish-blue),
+		var(--grayish-blue),
+		14px
+	);
+}

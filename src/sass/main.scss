@@ -31,11 +31,26 @@ html {
 
 body {
 	background: var(--light-blue);
+	width: 100vw;
 }
 
 .main-wrapper {
-	padding: 5.5rem 1.6rem;
+	padding: 5rem 1.6rem;
 }
+// Mixins
+@import './mixins/mixins';
 
 // First Card
 @import './_first-card.scss';
+
+// Second Card
+@import './_second_card';
+
+// Third Card
+@import './third-card';
+
+// Fourth Card
+@import './fourth-card';
+
+// Fifth Card
+@import './fifth-card';
