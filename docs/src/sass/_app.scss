@@ -12,6 +12,8 @@ $grayish-blue: hsl(217, 19%, 35%);
 	--light-violet: hsl(263, 64%, 61%);
 	--light-gray: hsl(0, 0%, 81%);
 	--light-blue: hsl(210, 46%, 95%);
+
+	--transition: all 0.3s cubic-bezier(0.17, 0.67, 0.77, 0.57);
 	// Note for text colors:
 	// 1. "Verified Graduate" has the same color as the person's name with 50% opacity
 	// 2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity

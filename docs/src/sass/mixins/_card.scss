@@ -21,6 +21,12 @@
 		padding: 3rem;
 		height: $cardHeight;
 		width: $cardWidth;
+		transition: var(--transition);
+
+		&:hover {
+			filter: brightness(1.05);
+			box-shadow: 1px 4px 10px rgba($grayish-blue, 0.6);
+		}
 	}
 
 	&-user {
@@ -46,6 +52,11 @@
 		&-name {
 			@media screen and (min-width: 1200px) {
 				font-size: 1.1rem;
+				transition: var(--transition);
+
+				&:hover {
+					letter-spacing: 0.1px;
+				}
 			}
 		}
 
@@ -55,6 +66,10 @@
 
 			@media screen and (min-width: 1200px) {
 				font-size: 1.1rem;
+
+				&:hover {
+					letter-spacing: 0.1px;
+				}
 			}
 		}
 	}
@@ -77,6 +92,11 @@
 			opacity: 75%;
 			font-size: $fontSize;
 			line-height: 1.5;
+			transition: var(--transition);
+
+			&:hover {
+				color: $textColor;
+			}
 		}
 	}
 }
