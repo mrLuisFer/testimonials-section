@@ -58,4 +58,16 @@
 		540,
 		282
 	);
+
+	&-quote {
+		position: absolute;
+		right: 5%;
+		top: 0%;
+		z-index: -10;
+
+		@media screen and (min-width: 1200px) {
+			right: 16.5%;
+			top: 5%;
+		}
+	}
 }

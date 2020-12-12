@@ -14,6 +14,8 @@
 	color: $textColor;
 	border-radius: 9px;
 	box-shadow: 1px 4px 9px rgba($grayish-blue, 0.4);
+	position: relative;
+	z-index: -9;
 
 	@media screen and (min-width: 1200px) {
 		grid-area: $gridArea;
