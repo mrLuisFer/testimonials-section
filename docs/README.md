@@ -13,6 +13,12 @@ You can add improvements to the challenge either by improving the design or addi
 You can check the Frontend Mentor page for more challenges of this type🌟
 [Frontend Mentor](https://www.frontendmentor.io)
 
+### Screens 💻
+
+These are the measurements of the screens that the design is based on
+- 375px
+- 1440px
+
 ## Where to find me! 👨‍💻
 
 You can follow me to see more challenges of this type made by me ✨
